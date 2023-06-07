@@ -1,0 +1,215 @@
+html  {
+font-family: Rokkitt;
+font-size: 17px;
+background-image:url(../resources/work-doodles-bckgrnd.jpeg);
+}
+
+h1 {
+    font-family: Bungee Shade;
+}
+
+h2 {
+    font-family: Inconsolata;
+    font-size: 25px;
+}
+
+.navbar {
+    display: inline;
+    background-color:#c0d6e4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.avatar {
+    background-image: url(../resources/FAFC\ Portrait\ -\ Color.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    font-family: 'Bungee Inline';
+    font-size: large;
+}
+
+.navbar a {
+    margin-left: 30px;
+    font-family: 'Rokkitt';
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*Colors Section*/
+
+.container{ /*Colors*/
+background-color: whitesmoke;
+border-style: inset;
+margin: 80px;
+margin-top: 90px;
+margin-bottom: 0px;
+padding: 30px;
+}
+
+#colors {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    vertical-align: super;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.color-container {
+    text-align: center;
+}
+
+#light-blue{
+    background-color: lightblue;
+    border-style: outset;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+#white{
+    background-color: white;
+    border-style: outset;
+    margin-left: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#gray {
+    color: white;
+    background-color: gray;
+    border-style: outset;
+    margin-left: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#beige {
+    background-color: beige;
+    border-style: outset;
+    margin-left: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#black {
+    color: white;
+    background-color: black;
+    border-style: outset;
+    margin-left: 10px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*Font Section*/
+
+.font-container {
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: inset;
+    margin: 80px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+#fonts {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#bungee-regular {
+    font-family: Bungee;
+}
+
+#bungee-inline {
+    font-family: Bungee Inline;
+}
+
+#bungee-shade {
+    font-family: Bungee Shade;
+}
+
+#inconsolata {
+    font-family: Inconsolata;
+}
+
+#incon-extralight {
+    font-family: Inconsolata;
+    font-weight: 200;
+}
+
+#incon-regular {
+    font-family: Inconsolata;
+    font-weight: 400;
+}
+
+#incon-bold {
+font-family: Inconsolata;
+font-weight: bold;
+}
+
+#rokk-italic {
+    font-style: italic;
+}
+
+#rokk-bold {
+    font-weight: bold;
+}
+
+/*Text Style Section*/
+
+.textstyles-container{
+    text-align: center;
+    background-color: whitesmoke;
+    border-style: inset;
+    margin: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+#text-styles {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#ul {
+    text-align: left;
+    padding-left: 515px;
+}
+
+/*Footer Section*/
+
+.footer{
+    color: white;
+    background-color: #191970;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+}
